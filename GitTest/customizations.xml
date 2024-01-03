@@ -862,7 +862,7 @@
                             <row>
                               <cell id="{ba2e3b56-3e82-4bd1-9aed-ca3fab5887b0}" showlabel="true" locklevel="0">
                                 <labels>
-                                  <label description="" languagecode="1033" />
+                                  <label description="Status Reason" languagecode="1033" />
                                 </labels>
                                 <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
                               </cell>
@@ -887,7 +887,7 @@
                             <row>
                               <cell id="{00d7367b-518c-4c94-9b25-fd2e507ad770}" showlabel="true" locklevel="0">
                                 <labels>
-                                  <label description="" languagecode="1033" />
+                                  <label description="Label" languagecode="1033" />
                                 </labels>
                                 <control id="mnpd_label" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mnpd_label" disabled="false" />
                               </cell>
@@ -902,13 +902,13 @@
                             <row>
                               <cell id="{166b5ddf-c6e4-47a3-bb77-8ece4f50c7ed}" showlabel="true" locklevel="0">
                                 <labels>
-                                  <label description="" languagecode="1033" />
+                                  <label description="Owner" languagecode="1033" />
                                 </labels>
                                 <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
                               </cell>
                               <cell id="{af871969-4edb-43d0-bf3b-22b67bc2d797}" showlabel="true" locklevel="0">
                                 <labels>
-                                  <label description="" languagecode="1033" />
+                                  <label description="Created On" languagecode="1033" />
                                 </labels>
                                 <control id="createdon" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdon" disabled="false" />
                               </cell>
@@ -964,7 +964,7 @@
                             <row>
                               <cell id="{1d3726da-2403-4a37-84eb-3fe8604efd32}">
                                 <labels>
-                                  <label description="" languagecode="1033" />
+                                  <label description="Label" languagecode="1033" />
                                 </labels>
                                 <control id="mnpd_label" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mnpd_label" />
                               </cell>
@@ -972,7 +972,7 @@
                             <row>
                               <cell id="{bb360bf9-47db-48c2-ad13-f97825f19ef9}">
                                 <labels>
-                                  <label description="" languagecode="1033" />
+                                  <label description="Owner" languagecode="1033" />
                                 </labels>
                                 <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
                               </cell>
@@ -1018,7 +1018,7 @@
                             <row>
                               <cell id="{fbe1520c-fd13-467c-9551-07977110a61b}">
                                 <labels>
-                                  <label description="" languagecode="1033" />
+                                  <label description="Label" languagecode="1033" />
                                 </labels>
                                 <control id="mnpd_label" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mnpd_label" />
                               </cell>
@@ -1026,7 +1026,7 @@
                             <row>
                               <cell id="{6e61e2df-6ae3-4e84-be18-d8e8aaf52df4}">
                                 <labels>
-                                  <label description="" languagecode="1033" />
+                                  <label description="Owner" languagecode="1033" />
                                 </labels>
                                 <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
                               </cell>
@@ -1453,6 +1453,15 @@
   <optionsets />
   <CustomControls />
   <EntityDataProviders />
+  <connectionreferences>
+    <connectionreference connectionreferencelogicalname="mnpd_sharedcommondataserviceforapps_2fa6c">
+      <connectionreferencedisplayname>Microsoft Dataverse BOKSolution-2fa6c</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+  </connectionreferences>
   <Languages>
     <Language>1033</Language>
   </Languages>
